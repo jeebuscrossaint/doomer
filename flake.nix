@@ -30,7 +30,8 @@
       buildInputs = [nixpkgs.legacyPackages.x86_64-linux.raylib];
 
       buildPhase = ''
-        gcc -o doomer doomer.c -lraylib -lm -lpthread -ldl
+        gcc -o doomer doomer.c -lraylib -lm -lpthread -ldl -O3 -march=native -flto
+        strip doomer
       '';
 
       installPhase = ''
