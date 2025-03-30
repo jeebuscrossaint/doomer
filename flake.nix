@@ -1,5 +1,5 @@
 {
-  description = "C project with Raylib, Grim, and GCC";
+  description = "doomer";
 
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
@@ -13,7 +13,6 @@
         nixpkgs.legacyPackages.x86_64-linux.raylib
         nixpkgs.legacyPackages.x86_64-linux.grim
         nixpkgs.legacyPackages.x86_64-linux.pkg-config
-        nixpkgs.legacyPackages.x86_64-linux.wlroots
       ];
 
       shellHook = ''
