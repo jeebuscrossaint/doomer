@@ -13,7 +13,6 @@ woomer repository. He was inspired by tsoding's boomer program and so was I too.
 | Control                                           | Description                                  |
 | ------------------------------------------------- | -------------------------------------------- |
 | Right Click or <kbd>ESC</kbd>                     | Quit the application.                        |
-| <kbd>R</kbd>                                      | Reload the shaders (only for Developer mode) |
 | Hold <kbd>CTRL</kbd>                              | Enable flashlight effect.                    |
 | Drag with left mouse button                       | Move the image around.                       |
 | Scroll wheel                                      | Zoom in/out.                                 |
